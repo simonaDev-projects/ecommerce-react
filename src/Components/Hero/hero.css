@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.hero-left {
+  display: flex;
+  font: 1px;
+}
+.hero-left img {
+  width: 750px;
+}
+
+.hero-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 180px;
+  padding-right: 2rem;
+  line-height: 1.1;
+}
+
+.hero-right .hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-right .hand-icon img {
+  width: 105px;
+}
+
+.hero-latest-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-latest-btn img {
+  width: 30px;
+}
