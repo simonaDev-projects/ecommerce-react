@@ -13,7 +13,6 @@ const Hero = () => {
          <div className='hero-right'>
             <h3 className='subtitle'>NEW ARRIVALS ONLY</h3>
             <div>
-
                <h1 className='main-title'>
                   <div className="hand-icon">
                      <p className='main-title'>new</p>
@@ -26,7 +25,6 @@ const Hero = () => {
                <img src={right_arrow_icon} alt="right arrow" />
             </div>
          </div>
-
       </div>
    )
 }

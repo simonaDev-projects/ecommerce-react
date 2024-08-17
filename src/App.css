@@ -18,6 +18,9 @@
 
 .title {
   /* h2 */
+  color: #171717;
+  font-size: 36px;
+  font-weight: 700;
 }
 
 .subtitle {
@@ -29,6 +32,7 @@
 
 .desrciption {
   /* p */
+  /* font-size: 16px; */
 }
 
 .btn {
