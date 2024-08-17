@@ -8,7 +8,7 @@
 
 .hero-left {
   display: flex;
-  font: 1px;
+  /* flex: 1px; */
 }
 .hero-left img {
   width: 750px;
@@ -16,7 +16,7 @@
 
 .hero-right {
   display: flex;
-  flex: 1;
+  /* flex: 1; */
   flex-direction: column;
   justify-content: center;
   gap: 20px;
