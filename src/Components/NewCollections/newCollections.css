@@ -6,8 +6,8 @@
   height: 90vh;
 }
 
-.newcollections-title {
-  margin-top: 5rem;
+.newcollections .title {
+  text-transform: uppercase;
 }
 
 .newcollections hr {
