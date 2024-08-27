@@ -8,11 +8,11 @@ const DisplayProducts = (props) => {
    return (
       <div className='flex'>
          <div className='flex w-6/12'>
-            <div className='mr-5'>
-               <img className='w-3/5 mt-2' src={product.image} alt="product" />
-               <img className='w-3/5 mt-2' src={product.image} alt="product" />
-               <img className='w-3/5 mt-2' src={product.image} alt="product" />
-               <img className='w-3/5 mt-2' src={product.image} alt="product" />
+            <div className=''>
+               <img className='w-3/5 mt-4' src={product.image} alt="product" />
+               <img className='w-3/5 mt-4' src={product.image} alt="product" />
+               <img className='w-3/5 mt-4' src={product.image} alt="product" />
+               <img className='w-3/5 mt-4' src={product.image} alt="product" />
             </div>
             <img className='w-4/5' src={product.image} alt="product" />
          </div>
@@ -52,8 +52,6 @@ const DisplayProducts = (props) => {
             </div>
 
             <div className='flex flex-col gap-5 text-lg'>
-               <p>Vieneto kaina: {product.new_price} Eur.</p>
-
                <p className='font-bold text-2xl'>Total:</p>
 
                <button className='bg-[#ff4141] text-white font-semibold py-5 mt-10 text-lg'>Add to cart</button>
