@@ -1,6 +1,7 @@
 import React from 'react';
 import yellow_star from './Assets/star-icon.png';
 import grey_star from './Assets/grey-star-icon.png';
+import RelatedProduct from './RelatedProduct';
 
 const DisplayProducts = (props) => {
    const { product } = props;
