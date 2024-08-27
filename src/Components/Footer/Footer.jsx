@@ -12,7 +12,7 @@ const Footer = () => {
          <div className='flex flex-col items-center gap-4 justify-center m-2.5'>
 
             <div className='flex items-center gap-2.5 font-semibold text-3xl'>
-               <img className='w-[80px]' src={logo} alt="" />
+               <img className='w-[50px]' src={logo} alt="" />
                <p className=''>e-SHOP</p>
             </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                </div>
             </div>
             <hr />
-            <div className='text-base'> &copy; Copyright 2024 | visos teisės saugomos</div>
+            <div className='text-lg'> &copy; Copyright 2024 | visos teisės saugomos</div>
          </div>
       </>
    )
